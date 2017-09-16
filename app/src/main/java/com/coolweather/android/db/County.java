@@ -10,8 +10,8 @@ public class County extends DataSupport {
 
     private int id;
     private String countName;
-    private String weatherId;
-    private int cityId;
+    private String weatherId;  // 记录县所对应的天气id
+    private int cityId;  // 记录县所属市的id值
 
     public int getId() {
         return id;

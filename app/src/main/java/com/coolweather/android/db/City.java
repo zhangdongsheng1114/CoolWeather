@@ -11,7 +11,7 @@ public class City extends DataSupport {
     private int id;
     private String cityName;
     private int cityCode;
-    private int provinceId;
+    private int provinceId;  // 记录当前市所属省的id值
 
     public int getId() {
         return id;
